@@ -19,7 +19,7 @@ RegisterCommand('auto', async()=>{
     const blip = GetFirstBlipInfoId(8);
     let [a,b,c] = GetEntityCoords(blip);  
   
-    TaskVehicleDriveToCoordLongrange(ped, infernus, a,b,c, 50, 20971520, );
+    TaskVehicleDriveToCoordLongrange(ped, infernus, a,b,c, 50, 55, 5 );
 });
 
 
